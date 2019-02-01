@@ -8,6 +8,7 @@
 #include <cmath>
 using namespace std;
 
+
 void parseLine(string line,string *arrParsed);
 string constructRType(string opcode,string funct,string mips[],int i);
 string constructIType(string opcode,string mips[],int i,int lineNumber);
